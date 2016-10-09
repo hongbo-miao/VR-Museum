@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,300");
+@import "~bootstrap/scss/bootstrap";
+
+* {
+  font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.vm-disable-selection {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.vm-thin {
+  font-weight: 100;
+}
+
+.alert-success {
+  background-color: #46c35f;
+  color: #ffffff;
+}
